@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const PORT = process.env.PORT || 5000;
 const pino = require('pino');
 const pretty = require('pino-pretty');

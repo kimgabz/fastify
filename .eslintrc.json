@@ -12,5 +12,6 @@
 		"ecmaVersion": "latest" // 12
 	},
 	"rules": {
-	}
+	},
+	"ignorePatterns": ["node_modules/", "migrations/"]
 }

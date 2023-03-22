@@ -4,7 +4,11 @@
 		"commonjs": true,
 		"es2021": true
 	},
-	"extends": ["airbnb-base", "prettier", "plugin:jest/recommended"],
+	"extends": [
+		"airbnb-base",
+		"prettier",
+		"plugin:jest/recommended"
+	],
 	"plugins": ["prettier"],
 	"overrides": [
 	],

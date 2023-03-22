@@ -2,7 +2,7 @@ containers:
   my-container:
     image: alpine:3.11.3
   build-fastify-env:
-    image: node:16.16.0
+    image: node:16.16.0 # node:14.3.0
     volumes:
       - local: .
         container: /code
@@ -12,6 +12,7 @@ containers:
         container: /code/node_modules
     working_directory: /code
 
+  # postgreSQL container
   db:
     image: postgres:alpine
     ports:
